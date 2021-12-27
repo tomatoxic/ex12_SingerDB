@@ -14,6 +14,16 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    // CMD -> CD C:\Users\Nexus\AppData\Local\Android\Sdk\platform-tools
+    // ADB.EXE
+    // adb root, adb shell
+    // cd /data/data/com.example.ex12_singerdb
+    // ls -l
+    // (mkdir databases)
+    // cd databases
+    // pwd -> sqlite3 groupDB
+    // 이후 SQL 문으로 조회
+
     // myDBHelper 클래스 변수
     myDBHelper myHelper;
     EditText editName, editNumber, editNameResult, editNumberResult;
